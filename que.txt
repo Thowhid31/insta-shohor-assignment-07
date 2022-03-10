@@ -1,3 +1,0 @@
- 1. 
- 2. 
- 3. Difference between Local Storage and Session Storage!
