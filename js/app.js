@@ -16,7 +16,7 @@ const isLiked = (id) => {
 };
 
 const addToLiked = (id) => {
-  // console.log(id);
+  
     likedPostsId.includes(id);
     showPosts(posts);
 };
@@ -121,9 +121,9 @@ const createPost = (post) => {
                   <div class="post__description">
                     <small>
                       <a class="post__name--underline" href="#">
-                          ${post.comments?.user}
+                          User 321
                       </a>
-                      ${post.comments?.text}
+                      : WOW! Awesome  Picture
                     </small>
                   </div>
                   <span class="post__date-time">30 minutes ago</span>
